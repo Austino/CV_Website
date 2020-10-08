@@ -1,0 +1,16 @@
+a{
+    text-decoration: none;
+    color: #000;
+}
+a:hover{
+    text-decoration: none;
+    color: #000; 
+}
+
+.content{
+    max-width: 1148px;
+    margin: 0 auto;
+}
+.social-media-nav-icon{
+    height: 30px;
+}
