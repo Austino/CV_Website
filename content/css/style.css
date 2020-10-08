@@ -1,3 +1,6 @@
+body{
+    min-width: 300px;
+}
 a{
     text-decoration: none;
     color: #000;
@@ -13,4 +16,20 @@ a:hover{
 }
 .social-media-nav-icon{
     height: 30px;
+}
+.nav-bar-font{
+    font-family: 'Fira Sans Condensed';
+    color: #ccc;
+}
+
+#site-name-navbar{
+    margin: 0;
+    font-size: 22px;
+}
+.nav-bar-link-hover:hover{
+    color: #fff;
+}
+
+.test{
+    height:3000px;
 }
