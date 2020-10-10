@@ -9,11 +9,12 @@ a:hover{
     text-decoration: none;
     color: #000; 
 }
-
 .content{
     max-width: 1148px;
     margin: 0 auto;
 }
+
+
 .social-media-nav-icon{
     height: 30px;
 }
@@ -30,6 +31,44 @@ a:hover{
     color: #fff;
 }
 
+/* Displays site name and exit button on mobile menus */
+.offcanvas-header{ 
+    display:none; 
+}
+
+.navbar{
+    height: 56px;
+}
+
 .test{
     height:3000px;
+}
+
+@media (max-width: 992px) {
+    .collapse {
+        display: none !important;
+    }
+    .offcanvas-header{ 
+        display:block; 
+    }
+    .navbar-collapse {
+        position: fixed;
+        top:0; 
+        bottom: 0;
+        left: 100%;
+        width: 100%;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        overflow-y: auto;
+        visibility: hidden;
+        background-color: black;
+        transition: visibility .2s ease-in-out, -webkit-transform .2s ease-in-out;
+    }
+    .navbar-collapse.show {
+        visibility: visible;
+        transform: translateX(-100%);
+    }
+    .navbar-toggler{
+        display: block !important;
+    }
 }
