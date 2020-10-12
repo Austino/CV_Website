@@ -91,6 +91,14 @@ a:hover{
     filter: grayscale(50%) !important;
 }
 
+.divider-image{
+    background-image: url(../images/slide-3.jpg);
+    height: 150px;
+}
+.mirror-image{
+    -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
 @media (max-width: 992px) {
     .collapse {
         display: none !important;
