@@ -126,4 +126,7 @@ a:hover{
     .navbar-toggler{
         display: block !important;
     }
+    .divider-image{
+        height: 50px;
+    }
 }
