@@ -99,7 +99,10 @@ a:hover{
     -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
 }
-
+.card-header{
+    background-color: #343a40 !important;
+    color: #fff !important;
+}
 /*TimeLine*/
 
 /* The actual timeline (the vertical ruler) */
