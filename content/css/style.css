@@ -14,7 +14,9 @@ a:hover{
     max-width: 1148px;
     margin: 0 auto;
 }
-
+.content-scroll-margin{
+    scroll-margin-top: 70px;
+}
 
 .social-media-nav-icon{
     height: 30px;
@@ -39,10 +41,6 @@ a:hover{
 
 .navbar{
     height: 56px;
-}
-
-.test{
-    height:3000px;
 }
 
 .carousel-image-height{
