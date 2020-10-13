@@ -10,6 +10,9 @@ a:hover{
     text-decoration: none;
     color: #000; 
 }
+hr{
+    border-color: #ccc !important;
+}
 .content{
     max-width: 1148px;
     margin: 0 auto;
@@ -17,6 +20,14 @@ a:hover{
 .content-scroll-margin{
     scroll-margin-top: 70px;
 }
+.text-light-gray{
+    color: #ccc !important;
+}
+
+.footer-link:hover{
+    color: #999999 !important;
+}
+
 
 .social-media-nav-icon{
     height: 30px;
@@ -102,6 +113,9 @@ a:hover{
 .card-header{
     background-color: #343a40 !important;
     color: #fff !important;
+}
+.page-footer{
+    background-color: #343a40 !important;
 }
 /*TimeLine*/
 
